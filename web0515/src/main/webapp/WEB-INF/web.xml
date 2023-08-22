@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+    <display-name>JSP 培训系统</display-name>
+    <description>This a description of my web app made by Eclipse</description>
+    <servlet>
+        <servlet-name>class_1</servlet-name>
+        <servlet-class>web0515_01.class_1</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>class_1</servlet-name>
+        <url-pattern>/web0515_01/class_1</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+     <servlet-name>class_cdx</servlet-name>
+     <servlet-class>web0515_01.class_cdx</servlet-class>
+ </servlet>
+
+ <servlet-mapping>
+     <servlet-name>class_yh</servlet-name>
+     <url-pattern>/web0515_01/class_yh</url-pattern>
+ </servlet-mapping> 
+ 
+ <servlet>
+     <servlet-name>class_yh</servlet-name>
+     <servlet-class>web0515_01.class_yh</servlet-class>
+ </servlet>
+
+ <servlet-mapping>
+     <servlet-name>class_cdx</servlet-name>
+     <url-pattern>/web0515_01/class_cdx</url-pattern>
+ </servlet-mapping> 
+ 
+  <servlet-mapping>
+     <servlet-name>class_goods</servlet-name>
+     <url-pattern>/web0515_01/class_goods</url-pattern>
+ </servlet-mapping> 
+ 
+ <servlet>
+     <servlet-name>class_goods</servlet-name>
+     <servlet-class>web0515_01.class_goods</servlet-class>
+ </servlet>
+ 
+ <servlet>
+     <servlet-name>sql_cs1</servlet-name>
+     <servlet-class>web0515_01.sql_cs1</servlet-class>
+ </servlet>
+
+ <servlet-mapping>
+     <servlet-name>sql_cs1</servlet-name>
+     <url-pattern>/web0515_01/sql_cs1</url-pattern>
+ </servlet-mapping> 
+ 
+  <servlet>
+     <servlet-name>delete</servlet-name>
+     <servlet-class>web0515_01.delete</servlet-class>
+ </servlet>
+
+ <servlet-mapping>
+     <servlet-name>delete</servlet-name>
+     <url-pattern>/web0515_01/delete</url-pattern>
+ </servlet-mapping> 
+ 
+  <servlet>
+     <servlet-name>delete_goods</servlet-name>
+     <servlet-class>web0515_01.delete_goods</servlet-class>
+ </servlet>
+
+ <servlet-mapping>
+     <servlet-name>delete_goods</servlet-name>
+     <url-pattern>/web0515_01/delete_goods</url-pattern>
+ </servlet-mapping> 
+ 
+   <servlet>
+     <servlet-name>change</servlet-name>
+     <servlet-class>web0515_01.change</servlet-class>
+ </servlet>
+
+ <servlet-mapping>
+     <servlet-name>change</servlet-name>
+     <url-pattern>/web0515_01/change</url-pattern>
+ </servlet-mapping> 
+ 
+ <servlet>
+     <servlet-name>change2</servlet-name>
+     <servlet-class>web0515_01.change2</servlet-class>
+ </servlet>
+
+ <servlet-mapping>
+     <servlet-name>change2</servlet-name>
+     <url-pattern>/web0515_01/change2</url-pattern>
+ </servlet-mapping> 
+ 
+ <servlet>
+     <servlet-name>change_goods</servlet-name>
+     <servlet-class>web0515_01.change_goods</servlet-class>
+ </servlet>
+
+ <servlet-mapping>
+     <servlet-name>change_goods</servlet-name>
+     <url-pattern>/web0515_01/change_goods</url-pattern>
+ </servlet-mapping> 
+ 
+ <servlet>
+     <servlet-name>change_goods2</servlet-name>
+     <servlet-class>web0515_01.change_goods2</servlet-class>
+ </servlet>
+
+ <servlet-mapping>
+     <servlet-name>change_goods2</servlet-name>
+     <url-pattern>/web0515_01/change_goods2</url-pattern>
+ </servlet-mapping> 
+ 
+  <servlet>
+     <servlet-name>save</servlet-name>
+     <servlet-class>web0515_01.save</servlet-class>
+ </servlet>
+
+ <servlet-mapping>
+     <servlet-name>save</servlet-name>
+     <url-pattern>/web0515_01/save</url-pattern>
+ </servlet-mapping> 
+ 
+ <servlet>
+     <servlet-name>save_goods</servlet-name>
+     <servlet-class>web0515_01.save_goods</servlet-class>
+ </servlet>
+
+ <servlet-mapping>
+     <servlet-name>save_goods</servlet-name>
+     <url-pattern>/web0515_01/save_goods</url-pattern>
+ </servlet-mapping> 
+ 
+  <servlet>
+     <servlet-name>class_cust</servlet-name>
+     <servlet-class>web0515_01.class_cust</servlet-class>
+ </servlet>
+
+ <servlet-mapping>
+     <servlet-name>class_cust</servlet-name>
+     <url-pattern>/web0515_01/class_cust</url-pattern>
+ </servlet-mapping> 
+ 
+  <servlet>
+     <servlet-name>class_goumai</servlet-name>
+     <servlet-class>web0515_01.class_goumai</servlet-class>
+ </servlet>
+
+ <servlet-mapping>
+     <servlet-name>class_goumai</servlet-name>
+     <url-pattern>/web0515_01/class_goumai</url-pattern>
+ </servlet-mapping> 
+ 
+  <servlet>
+     <servlet-name>cust_space</servlet-name>
+     <servlet-class>web0515_01.cust_space</servlet-class>
+ </servlet>
+
+ <servlet-mapping>
+     <servlet-name>cust_space</servlet-name>
+     <url-pattern>/web0515_01/cust_space</url-pattern>
+ </servlet-mapping> 
+ 
+ <servlet>
+     <servlet-name>insert_gwc</servlet-name>
+     <servlet-class>web0515_01.insert_gwc</servlet-class>
+ </servlet>
+
+ <servlet-mapping>
+     <servlet-name>insert_gwc</servlet-name>
+     <url-pattern>/web0515_01/insert_gwc</url-pattern>
+ </servlet-mapping> 
+ 
+ <servlet>
+     <servlet-name>insert_gwc2</servlet-name>
+     <servlet-class>web0515_01.insert_gwc2</servlet-class>
+ </servlet>
+
+ <servlet-mapping>
+     <servlet-name>insert_gwc2</servlet-name>
+     <url-pattern>/web0515_01/insert_gwc2</url-pattern>
+ </servlet-mapping> 
+ 
+ <servlet>
+     <servlet-name>delete_gwc</servlet-name>
+     <servlet-class>web0515_01.delete_gwc</servlet-class>
+ </servlet>
+
+ <servlet-mapping>
+     <servlet-name>delete_gwc</servlet-name>
+     <url-pattern>/web0515_01/delete_gwc</url-pattern>
+ </servlet-mapping> 
+  <servlet>
+     <servlet-name>end_gwc</servlet-name>
+     <servlet-class>web0515_01.end_gwc</servlet-class>
+ </servlet>
+
+ <servlet-mapping>
+     <servlet-name>end_gwc</servlet-name>
+     <url-pattern>/web0515_01/end_gwc</url-pattern>
+ </servlet-mapping> 
+ 
+ <servlet>
+     <servlet-name>class_zc</servlet-name>
+     <servlet-class>web0515_01.class_zc</servlet-class>
+ </servlet>
+
+ <servlet-mapping>
+     <servlet-name>class_zc</servlet-name>
+     <url-pattern>/web0515_01/class_zc</url-pattern>
+ </servlet-mapping> 
+ <servlet>
+     <servlet-name>class_cz</servlet-name>
+     <servlet-class>web0515_01.class_cz</servlet-class>
+ </servlet>
+
+ <servlet-mapping>
+     <servlet-name>class_cz</servlet-name>
+     <url-pattern>/web0515_01/class_cz</url-pattern>
+ </servlet-mapping> 
+</web-app>
